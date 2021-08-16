@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Customer Registration" max_length="40" name="x_93459_merge_customer_registration" type="collection">
+        <element label="Domain" max_length="32" name="domain" type="domain_id"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="80" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="80" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Instance Name" max_length="80" name="instance_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="80" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="80" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Password" max_length="500" name="password" type="string"/>
+        <element label="Source ID" max_length="40" name="source_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Source Name" max_length="40" name="source_name" type="string"/>
+        <element attributes="case_sensitive=true" label="Domain Path" max_length="255" name="sys_domain_path" type="domain_path"/>
+        <element attributes="edge_encryption_enabled=true" label="Token" max_length="5000" name="token" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TokenExpireDate" max_length="40" name="tokenexpiredate" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Username" max_length="500" name="username" type="string"/>
+        <index name="index">
+            <element name="domain"/>
+        </index>
+        <index name="index2">
+            <element name="sys_domain_path"/>
+        </index>
+    </element>
+</database>
