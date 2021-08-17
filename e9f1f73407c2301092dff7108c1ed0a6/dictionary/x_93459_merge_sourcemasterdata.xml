@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SourceMasterData" max_length="40" name="x_93459_merge_sourcemasterdata" type="collection">
+        <element label="sourceID" max_length="80" name="sourceid" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="SourceMasterData" language="en" table="x_93459_merge_sourcemasterdata">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>SourceMasterData</label>
+            <language>en</language>
+            <name>x_93459_merge_sourcemasterdata</name>
+            <plural>SourceMasterData</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-16 12:19:38</sys_created_on>
+            <sys_id>e4e184090706301092dff7108c1ed01b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SourceMasterData</sys_name>
+            <sys_package display_value="Merge" source="x_93459_merge">e9f1f73407c2301092dff7108c1ed0a6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Merge">e9f1f73407c2301092dff7108c1ed0a6</sys_scope>
+            <sys_update_name>sys_documentation_x_93459_merge_sourcemasterdata__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-16 12:19:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
